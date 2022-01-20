@@ -4,14 +4,14 @@ def eos(T, S, T0, S0, rho0, alpha, beta):
     
     Computes potential density using a linear equation of state.
         
-    input: 
+    Input: 
         T    = temperature                            [ °C ]
         S    = salinity                               [ g/kg ]
         T0   = reference temperature                  [ °C ]
         S0   = reference salinity                     [ g/kg ]
         rho0 = reference density                      [ kg/m^3 ]
         
-    output:
+    Output:
         P  = potential density                        [ kg/m^3 ]
         PT = thermal component of potential density   [ kg/m^3 ]
         PH = haline component of potential density    [ kg/m^3 ]
