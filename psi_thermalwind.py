@@ -7,12 +7,14 @@ def psi_thermalwind(z, pb, pn, f):
     based on Nikurashin and Vallis, (2012) and Jansen et al., (2018) with boundary 
     conditions \psi = 0 at the surface and bottom of the ocean.
     
-    input:  z  = depth                                          [ m ]
-            pn = vertical profile of density in northern region [ kg m^{-3} ]
-            pb = vertical profile of density in basin           [ kg m^{-3} ]
-            f  = coriolis parameter                             [ s^{-1} ]
-    output: 
-            psi = vertical profile of overturning               [ Sv ]
+    Input:  
+        z  = depth                                          [ m ]
+        pn = vertical profile of density in northern region [ kg m^{-3} ]
+        pb = vertical profile of density in basin           [ kg m^{-3} ]
+        f  = coriolis parameter                             [ s^{-1} ]
+    
+    Output: 
+        psi = vertical profile of overturning               [ Sv ]
     """
     
     # Remove bathymetric issues
